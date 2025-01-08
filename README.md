@@ -1,7 +1,7 @@
 # 👋 Hi there! I'm Arion
 
 ## 🚀 About Me
-I'm working Epigenetics specifically stem cell differentiation using an array of Bioinformatics tools.
+I'm working on Epigenetics, specifically Stem Cell Differentiation using an array of Bioinformatics tools.
 
 ## 💻 Tech Stack
 - Languages: R, Python, Bash
