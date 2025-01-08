@@ -1,17 +1,21 @@
 # 👋 Hi there! I'm Arion
 
 ## 🚀 About Me
-I'm a Computational Biologist working on Epigenetics, specifically Stem Cell Differentiation using an array of Bioinformatics tools.
+I'm a Computational Biologist working on Epigenetics, with a focus on Stem Cell Differentiation. My work involves analyzing (bulk and single-cell) **Genomics** and **Transcriptomics** data and integrating these modalities to uncover the regulatory mechanisms underlying cell fate decisions.
 
-## 💻 Tech Stack
-- Languages: R, Python, Bash
-- Frameworks: Bioconductor (for R), Pandas/NumPy/SciPy (for Python)
-- Tools: Seurat, Signac, General Data Wrangling and Visiualization tools
+
+## 💻 Computational Tools
+- **Languages**: R, Bash, Python
+- **Frameworks**: Bioconductor (for R), Pandas/NumPy/SciPy (for Python)
+- **Genomics Tools**: Signac, SAMtools, BEDTools
+- **Transcriptomics Tools**: Seurat, DESeq2, edgeR, clusterProfiler
+- **Integration & Workflows**: Heavy User of SnakePipes and deepTools
+- **Visualization**: ggplot2, Plotly
 
 
 ## 🌱 I'm currently learning
-- Integration of multi-modal single cell data
-- Git
+- Advanced techniques for integrating Genomics and Transcriptomics data (Harmony or AnnData)
+- Machine learning applications in multi-modal data analysis
 
 
 
