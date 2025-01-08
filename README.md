@@ -16,13 +16,14 @@ I'm a Computational Biologist working on Epigenetics, specifically Stem Cell Dif
 
 
 ## 📊 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=YourGitHubUsername&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=foertsch&show_icons=true&theme=radical)
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=YourGitHubUsername&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=foertsch&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ## 🎯 Goals for 2025
 - Finishing my PhD!
+- Transitioning into the Pharma/Biotech industry
 
 Thanks for stopping by! Feel free to check out my repositories and don't hesitate to reach out for collaborations or just a chat!
 
