@@ -20,7 +20,7 @@ I'm a Computational Biologist working on Epigenetics, with a focus on Stem Cell 
 
 
 ## 📊 GitHub Stats
-[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=foertsch)](https://github.com/anuraghazra/github-readme-stats)
+[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=foertsch&theme=calm)](https://github.com/anuraghazra/github-readme-stats)
 
 
 ## 🏆 GitHub Trophies
