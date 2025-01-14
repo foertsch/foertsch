@@ -24,6 +24,7 @@ I'm a Computational Biologist working on Epigenetics, with a focus on Stem Cell 
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=foertsch&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+[![trophy](https://github-profile-trophy.vercel.app/?username=foertsch)](https://github.com/ryo-ma/github-profile-trophy)
 
 ## 🎯 Goals for 2025
 - Finishing my PhD!
