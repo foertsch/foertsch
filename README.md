@@ -1,7 +1,7 @@
 # 👋 Hi there! I'm Arion
 
 ## 🚀 About Me
-I'm a Computational Biologist working on Epigenetics, with a focus on Stem Cell Differentiation. My work involves analyzing (bulk and single-cell) **Genomics** and **Transcriptomics** data and integrating these modalities to uncover the regulatory mechanisms underlying cell fate decisions.
+I'm a Computational Biologist working analyzing (bulk and single-cell) **Genomics** and **Transcriptomics** data and integrating these modalities to uncover the regulatory mechanisms underlying cell fate decisions.
 
 
 ## 💻 Computational Tools
