@@ -26,7 +26,7 @@ I'm a Computational Biologist working analyzing (bulk and single-cell) **Genomic
 ## 🏆 GitHub Trophies
 [![trophy](https://github-profile-trophy.vercel.app/?username=foertsch)](https://github.com/ryo-ma/github-profile-trophy)
 
-## 🎯 Goals for 2025
+## 🎯 Goals for 2026
 - Deepening my expertise in the analysis of single cell RNA-Seq and spatial Transcriptomics datasets
 
 Thanks for stopping by! Feel free to check out my repositories and don't hesitate to reach out for collaborations or just a chat!
