@@ -20,7 +20,7 @@ Currently at the Functional Genomics Center Zurich (FGCZ).
 
 ### Research Analysis
 
-**[MSLc_Gene_Priming_public](https://github.com/foertsch/MSLc_Gene_Priming_public)** — Reproducible analysis for [Foertsch et al., *Science Advances* (2025)](https://www.science.org/doi/10.1126/sciadv.adz8889) — stage-specific epigenetic priming in muscle stem cells. Data deposited at GEO (GSE298000–GSE298010) and Zenodo.
+**[MSLc_Gene_Priming_public](https://github.com/foertsch/MSLc_Gene_Priming_public)** — Reproducible analysis for [Foertsch et al., *Science Advances* (2025)](https://www.science.org/doi/10.1126/sciadv.adz8889) — MSLc-mediated epigenetic priming of neurodevelopmental genes during early neurogenesis. Single-cell multiomics, enhancer-promoter contacts, directed differentiation models. Data deposited at GEO (GSE298000–GSE298010) and Zenodo.
 
 ---
 
