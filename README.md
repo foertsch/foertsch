@@ -8,6 +8,8 @@ Currently at the Functional Genomics Center Zurich (FGCZ).
 
 ### Software & Tools
 
+**[bulk_rna_explorer](https://github.com/foertsch/bulk_rna_explorer)** — Interactive Shiny app for exploring bulk RNA-seq DESeq2/edgeR results. Dynamic column mapping for any `SummarizedExperiment`, volcano and PCA plots, click-to-plot expression barplots, PNG/PDF export. testthat suite, GitHub Actions CI on Ubuntu + Windows.
+
 **[mismap-qc](https://github.com/foertsch/mismap-qc)** — Python package for visualising missing-data patterns in RNA-Seq and proteomics QC. Hierarchical clustering, multi-level annotations, interactive Plotly export. Published on [PyPI](https://pypi.org/project/mismap-qc/), conda-forge submission in review. pytest suite, GitHub Actions CI across Python 3.10–3.12.
 
 **[Task Tracker](https://github.com/foertsch/Task_Tracker)** — Full-stack productivity app in Flask + HTMX with CSV-backed persistence, workout tracking, Bring! API integration, and a macOS app bundle. 77 passing tests, GitHub Actions CI.
