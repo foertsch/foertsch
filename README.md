@@ -28,6 +28,8 @@ Currently at the Functional Genomics Center Zurich (FGCZ).
 
 ### Side Projects
 
+**[bruenneli](https://github.com/foertsch/bruenneli)** — Finds the nearest public drinking fountain in Switzerland and gives walking directions to it. Next.js/TypeScript, build-time data pipeline covering Basel, Zürich, and OpenStreetMap (~15,000 fountains), fully offline-capable PWA, no runtime API. Deliberate design sibling of [scooterino](https://scooterino.vercel.app/).
+
 **[f1_fantasy_26](https://github.com/foertsch/f1_fantasy_26)** — Data-driven F1 Fantasy optimizer, because being a huge F1 fan is no excuse not to have a model. Spearman-calibrated scoring, race simulation stint classification from FastF1 telemetry, circuit clustering, brute-force team optimizer under a £100M budget constraint. XGBoost in-season predictions planned.
 
 ---
