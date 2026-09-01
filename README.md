@@ -4,6 +4,8 @@ Bioinformatician based in Zurich. I build analysis pipelines, data tools, and sc
 
 Currently at the Functional Genomics Center Zurich (FGCZ).
 
+🌐 [foertsch.github.io](https://foertsch.github.io)
+
 ---
 
 ### Software & Tools
