@@ -16,7 +16,7 @@ jobs:
           filename: metrics.svg
           user: foertsch
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: activity, community, repositories, metadata
           config_animations: yes
           config_timezone: Europe/Zurich
 
@@ -24,6 +24,9 @@ jobs:
 
           plugin_languages: yes
           plugin_languages_ignored: tex, less, dockerfile, makefile, shell, cmake
+
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
 
           # plugin_habits disabled: crashes on events with null commit author
           # (known lowlighter/metrics bug). Re-enable when fixed upstream.
