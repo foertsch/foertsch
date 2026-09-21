@@ -9,6 +9,8 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
+
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_METRICS }}
@@ -21,6 +23,42 @@ jobs:
           config_timezone: Europe/Zurich
           plugin_calendar: yes
           plugin_calendar_limit: 1
+
+      - name: Rotate calendar to vertical layout
+        run: |
+          python3 << 'SCRIPT'
+          import re
+
+          with open("metrics-calendar.svg") as f:
+              svg = f.read()
+
+          # Extract inner pure-SVG calendar grid
+          m = re.search(r'<svg class="calendar"[^>]*viewBox="([^"]+)"[^>]*>(.*?)</svg>',
+                        svg, re.DOTALL)
+          if not m:
+              raise SystemExit("calendar grid not found in SVG")
+
+          vb = m.group(1).replace(",", " ").split()
+          w, h = float(vb[2]), float(vb[3])
+          content = m.group(2)
+
+          # 90° CW rotation: (x,y) -> (y, -x), then translate into positive quadrant
+          # Sun→Sat reads left→right, Dec on top → Jan on bottom
+          rotated = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {h} {w}">
+          <style>
+            svg {{ font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; }}
+            text {{ font-size: 14px; fill: #777; }}
+            .day {{ outline: 1px solid rgba(27,31,35,0.04); outline-offset: -1px; }}
+          </style>
+          <g transform="translate(0, {w}) rotate(-90)">
+            {content}
+          </g>
+          </svg>'''
+
+          with open("metrics-calendar-vertical.svg", "w") as f:
+              f.write(rotated)
+          print(f"Rotated calendar: {w}x{h} -> {h}x{w}")
+          SCRIPT
 
       - uses: lowlighter/metrics@latest
         with:
@@ -35,3 +73,10 @@ jobs:
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_languages_ignored: tex, less, dockerfile, makefile, shell, cmake
+
+      - name: Commit rotated calendar
+        run: |
+          git add metrics-calendar-vertical.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --cached --quiet || git commit -m "Update rotated calendar SVG" && git push
