@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: lowlighter/metrics@latest
+      - uses: foertsch/metrics@master
         with:
           token: ${{ secrets.GH_METRICS }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
@@ -60,7 +60,7 @@ jobs:
           print(f"Rotated calendar: {w}x{h} -> {h}x{w}")
           SCRIPT
 
-      - uses: lowlighter/metrics@latest
+      - uses: foertsch/metrics@master
         with:
           token: ${{ secrets.GH_METRICS }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
@@ -73,6 +73,11 @@ jobs:
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_languages_ignored: tex, less, dockerfile, makefile, shell, cmake
+          plugin_habits: yes
+          plugin_habits_from: 250
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
 
       - name: Commit rotated calendar
         run: |
