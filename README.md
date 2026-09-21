@@ -61,7 +61,7 @@ Currently at the Functional Genomics Center Zurich (FGCZ).
 
 ---
 
-<!-- NOTE: served from a third-party github-readme-stats deployment, not one I control.
-     The official instance (github-readme-stats.vercel.app) is rate-limit exhausted and 503s.
-     To self-host: fork anuraghazra/github-readme-stats, deploy to Vercel, set PAT_1, swap the host below. -->
-[![GitHub stats](https://github-readme-stats-eight-theta.vercel.app/api?username=foertsch&show_icons=true&theme=calm&include_all_commits=true&count_private=true)](https://github.com/foertsch)
+<!-- Generated weekly by lowlighter/metrics (GitHub Action).
+     Requires a GH_METRICS PAT secret with read:user scope.
+     To regenerate manually: Actions → Metrics → Run workflow. -->
+![Metrics](metrics.svg)
