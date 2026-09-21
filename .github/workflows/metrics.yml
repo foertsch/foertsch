@@ -76,7 +76,8 @@ jobs:
 
       - name: Commit rotated calendar
         run: |
-          git add metrics-calendar-vertical.svg
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git diff --cached --quiet || git commit -m "Update rotated calendar SVG" && git push
+          git pull --rebase
+          git add metrics-calendar-vertical.svg
+          git diff --cached --quiet || (git commit -m "Update rotated calendar SVG" && git push)
