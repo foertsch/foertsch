@@ -64,17 +64,6 @@ Currently at the Functional Genomics Center Zurich (FGCZ).
 <!-- Generated weekly by lowlighter/metrics (GitHub Action).
      Requires a GH_METRICS PAT secret with read:user + repo + read:org scope.
      To regenerate manually: Actions → Metrics → Run workflow. -->
-<table>
-<tr>
-<td valign="top" width="170">
-
-![Contributions](metrics-calendar-vertical.svg)
-
-</td>
-<td valign="top">
+![Contributions](metrics-calendar.svg)
 
 ![Metrics](metrics.svg)
-
-</td>
-</tr>
-</table>
